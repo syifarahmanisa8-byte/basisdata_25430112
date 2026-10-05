@@ -5,9 +5,9 @@ NIM: 25430112
 Kelas: D
 
 -- Praktikum Basis Data
--- Nama: Selvi Dia Nurmala
--- NIM: 25430072
--- Kelas: C
+-- Nama: Shifa Rahmanisa
+-- NIM: 25430112
+-- Kelas: D
 
 SELECT VERSION();
 
@@ -35,4 +35,3 @@ IDENTIFIED BY '<PASSWORD>';
 
 GRANT ALL PRIVILEGES ON kopma_112.* 
 TO 'tamu_112'@'localhost';
-
