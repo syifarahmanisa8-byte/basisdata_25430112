@@ -30,3 +30,9 @@ USE Shifa_112;
 SHOW TABLES;
 
 SELECT @@sql_mode;
+CREATE USER 'tamu_112'@'localhost'
+IDENTIFIED BY '<PASSWORD>';
+
+GRANT ALL PRIVILEGES ON kopma_112.* 
+TO 'tamu_112'@'localhost';
+
